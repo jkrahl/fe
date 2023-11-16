@@ -169,6 +169,10 @@ git push origin master
 
 **Opció 1 acabado**
 
+Tu árbol debería ser algo así:
+
+![Árbol](https://x0.at/uzSR.png)
+
 
 ## Opció 2
 
