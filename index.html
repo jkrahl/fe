@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+<h2>Tasques 1</h2>
+<h3>Tasca 1-1</h3>
+<code>
+#!/bin/bash<br>
+sort $1
+</code>
+<h3>Tasca 1-2</h3>
+<code>
+#!/bin/bash<br>
+sort -t',' -n -r -k4 $1
+
+</code>
+<h3>Tasca 1-3</h3>
+<code>
+#!/bin/bash<br>
+sort -t',' -k5 -n -r $1
+</code>
+<h2>Tasques 2</h2>
+<h3>Tasca 2-1</h3>
+<code>
+#!/bin/bash<br>
+sort -t',' -k1 $1 | grep "^[$2-$3]"
+</code>
+<h3>Tasca 2-2</h3>
+<code>
+#!/bin/bash<br>
+sort -t',' -k1 $1 | grep "^${2}.*,.*,.*,${3}"
+</code>
+<h3>Tasca 2-3</h3>
+<code>
+#!/bin/bash<br>
+valors=$(awk -F',' '{print $2}' "$1" | sort | uniq)<br>
+echo -e "$valors"<br>
+echo "Introdueix un rating level:"<br>
+read level<br>
+echo "Introdueix una cadena:"<br>
+read str<br>
+sort -t',' $1 | grep "^.*${str}.*,${level}"<br>
+</code>
+</body>
+
+</html>
