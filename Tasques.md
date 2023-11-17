@@ -74,6 +74,7 @@ Opcio2-1() {
     echo "Introdueix 1 per cercar, 0 per sortir"
     read opcio21
   done
+  clear
 }
 ```
 
@@ -92,6 +93,7 @@ Opcio2-2() {
     echo "Introdueix 1 per cercar, 0 per sortir"
     read opcio22
   done
+  clear
 }
 ```
 
@@ -115,6 +117,7 @@ Opcio2-3(){
     echo "Introdueix 1 per cercar, 0 per sortir"
     read opcio23
   done
+  clear
 }
 ```
 
