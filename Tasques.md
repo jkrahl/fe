@@ -1,7 +1,7 @@
 # Tasques Part A
 
 ## Index
-- [HBBQO.sh](#HBBQO.sh)
+- [Bucle del HBBQO.sh](#Bucle-del-HBBQO.sh)
 - [Función Opcio2-1](#Función-Opcio2-1)
 - [Función Opcio2-2](#Función-Opcio2-2)
 - [Función Opcio2-3](#Función-Opcio2-3)
@@ -13,7 +13,7 @@
 - [Tasca2-3.sh](#Tasca2-3.sh)
 
 
-## HBBQO.sh
+## Bucle del HBBQO.sh
 ```bash
 opcio=1
 opcio1=1
